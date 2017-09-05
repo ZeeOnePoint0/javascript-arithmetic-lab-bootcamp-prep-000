@@ -1,8 +1,8 @@
-function addTwo(a, b) {
+function add(a, b) {
   return (a + b);
 }
 
-function sub(a, b) {
+function subtract(a, b) {
   return (b - a);
 }
 
@@ -14,18 +14,18 @@ function divide() {
   return (a / b);
 }
 
-function inc(n) {
-  return n++;
+function inc(a) {
+  return a++;
 }
 
-function dec(n) {
-  return n--
+function dec(a) {
+  return a--
 }
 
-function parsein(n) {
-  return parseInt('n', 10);
+function parsein(a) {
+  return parseInt('a', 10);
 }
 
-function pFloat() {
-  return parseFloat('n');
+function pFloat(a) {
+  return parseFloat('a');
 }
