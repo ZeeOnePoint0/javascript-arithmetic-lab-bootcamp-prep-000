@@ -21,3 +21,11 @@ function inc(n) {
 function dec(n) {
   return n--
 }
+
+function parsein(n) {
+  return parseInt('n', 10);
+}
+
+function pFloat() {
+  return parseFloat('n');
+}
