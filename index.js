@@ -6,11 +6,11 @@ function subtract(b, a) {
   return (b - a);
 }
 
-function multiply() {
+function multiply(a, b) {
   return (a * b);
 }
 
-function divide() {
+function divide(a, b) {
   return (a / b);
 }
 
